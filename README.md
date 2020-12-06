@@ -1,13 +1,13 @@
 # Live demo
 
-This demo is published on [this website][demo-live-link].
+The demo is published on [this page][demo-live-link].
 
-A 30 minutes time rewrite of this [sketch.js demo][sketch-particles-demo-link] in JavaFx,
+This is a 30 minutes time rewrite of this [sketch.js demo][sketch-particles-demo-link] in JavaFx,
 and recompiled to JavaScript with WebFx. Here is the JavaFx [source code][demo-source-link].
 
 # Highlighted features
 
-(in addition to the features already explained in the [previous demo][previous-demo-repo-link])
+(in addition to those already explained in the [previous demo][previous-demo-repo-link])
 
 ## JavaFx canvas to HTML canvas mapping
 
