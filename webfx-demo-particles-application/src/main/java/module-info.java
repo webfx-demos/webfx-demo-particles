@@ -7,9 +7,9 @@ module webfx.demo.particles.application {
     requires javafx.graphics;
 
     // Exported packages
-    exports webfx.demo.particles;
+    exports dev.webfx.demo.particles;
 
     // Provided services
-    provides javafx.application.Application with webfx.demo.particles.ParticlesApplication;
+    provides javafx.application.Application with dev.webfx.demo.particles.ParticlesApplication;
 
 }

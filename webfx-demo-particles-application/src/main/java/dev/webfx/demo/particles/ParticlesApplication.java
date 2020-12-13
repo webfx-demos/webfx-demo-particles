@@ -1,4 +1,4 @@
-package webfx.demo.particles;
+package dev.webfx.demo.particles;
 
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
