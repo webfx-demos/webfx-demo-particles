@@ -13,6 +13,8 @@
 
     <artifactId>webfx-demo-particles-application-gluon</artifactId>
 
+    <name>WebFXDemoParticles</name>
+
     <dependencies>
 
         <dependency>

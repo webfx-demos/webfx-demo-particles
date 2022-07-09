@@ -54,8 +54,8 @@
     </dependencies>
 
     <properties>
-        <plugin.javapackager.name>webfx-demo-particles</plugin.javapackager.name>
-        <plugin.javapackager.displayName>webfx-demo-particles</plugin.javapackager.displayName>
+        <plugin.javapackager.name>WebFXDemoParticles</plugin.javapackager.name>
+        <plugin.javapackager.displayName>WebFX Demo Particles</plugin.javapackager.displayName>
         <plugin.javapackager.url/>
     </properties>
 
