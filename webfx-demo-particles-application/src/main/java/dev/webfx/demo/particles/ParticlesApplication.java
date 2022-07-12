@@ -108,9 +108,9 @@ public class ParticlesApplication extends Application {
     }
 
     private void draw() {
-        ctx.setGlobalBlendMode(BlendMode.SRC_OVER); // Note: Necessary to do this in JavaFx otherwise clearRect() does nothing after BlendMode.LIGHTEN has been applied
+        ctx.setGlobalBlendMode(BlendMode.SRC_OVER); // Note: Necessary to do this in JavaFX otherwise clearRect() does nothing after BlendMode.LIGHTEN has been applied
         ctx.clearRect(0, 0, canvas.getWidth(), canvas.getHeight());
-        ctx.setGlobalBlendMode(BlendMode.LIGHTEN);  // Note: this blend mode implementation is slower in JavaFx than in the browser
+        ctx.setGlobalBlendMode(BlendMode.LIGHTEN);  // Note: this blend mode implementation is slower in JavaFX than in the browser
         particles.forEach(p -> p.draw(ctx));
     }
 
