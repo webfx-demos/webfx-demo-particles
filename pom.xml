@@ -36,6 +36,7 @@
         <module>webfx-demo-particles-application</module>
         <module>webfx-demo-particles-application-gluon</module>
         <module>webfx-demo-particles-application-gwt</module>
+        <module>webfx-demo-particles-application-j2cl</module>
         <module>webfx-demo-particles-application-openjfx</module>
     </modules>
 
