@@ -3,7 +3,6 @@
 module webfx.demo.particles.application {
 
     // Direct dependencies modules
-    requires java.base;
     requires javafx.graphics;
 
     // Exported packages
