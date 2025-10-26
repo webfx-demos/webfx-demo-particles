@@ -39,6 +39,7 @@
         <module>webfx-demo-particles-application-j2cl</module>
         <module>webfx-demo-particles-application-openjfx</module>
         <module>webfx-demo-particles-application-teavm</module>
+        <module>webfx-demo-particles-application-teavm-wasm</module>
     </modules>
 
 </project>

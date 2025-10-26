@@ -6,13 +6,13 @@ import javafx.scene.Scene;
 import javafx.scene.canvas.Canvas;
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.effect.BlendMode;
-import javafx.scene.layout.Background;
-import javafx.scene.layout.BackgroundFill;
-import javafx.scene.layout.StackPane;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
-import java.util.*;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * @author Bruno Salmon
@@ -31,14 +31,13 @@ public class ParticlesApplication extends Application {
     @Override
     public void start(Stage primaryStage) {
         // Creating the scene with the specified size (this size is ignored if running in the browser)
-        StackPane root = new StackPane(canvas);
-        Scene scene = new Scene(root, 800, 600);
+        BorderPane root = new BorderPane(canvas);
+        Scene scene = new Scene(root, 800, 600, Color.web("#222"));
         primaryStage.setScene(scene);
 
-        // Reading back the scene size which may finally be different in the case we run in the browser
+        // Reading back the scene size, which may finally be different in the case we run in the browser
         canvas.widthProperty().bind(scene.widthProperty());
         canvas.heightProperty().bind(scene.heightProperty());
-        root.setBackground(new Background(new BackgroundFill(Color.web("#222"), null, null)));
 
         // Set off some initial particles.
         for (int i = 0; i < 20; i++ ) {
